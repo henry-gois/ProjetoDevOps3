@@ -24,7 +24,7 @@ jobs:
     - name: Buildando da melhor maneira possível.
       run: |
           cd src
-          javac -cp . Main
+          javac -cp . Pessoa.java Main.java
     - name: Rodando o programa da melhor maneira possível.
       run: |
           cd src
